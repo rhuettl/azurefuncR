@@ -1,3 +1,12 @@
+#overview:
+#https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-function-linux-custom-image?pivots=programming-language-other&tabs=bash%2Cportal
+#
+#install:
+#Azure CLI/https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
+#Azure Functions Core Tools (https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=windows%2Ccsharp%2Cbash#v2)
+#R for Windows (e.g. https://ftp.fau.de/cran/)
+#Docker Windows CE (https://hub.docker.com/editions/community/docker-ce-desktop-windows/)
+#
 #build:
 #docker build --build-arg proxy_url=<PROXYURL> -t rhuettl/square:v1.0.0 .
 #
@@ -32,6 +41,9 @@
 #- VNet integration
 #- Scaling and pricing (plan, storage, app insights)
 #- Configure monitoring and alerts
+#- Integrate in Artifactory SaaS
+#- CI/CD pipeline integration
+#- Documentation and sexurity discussion / approval
 
 FROM mcr.microsoft.com/azure-functions/dotnet:3.0-appservice 
 
