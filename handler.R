@@ -6,7 +6,6 @@ library(ChainLadder)
 #* @param msg The message to echo
 #* @get /api/msg
 function(msg="") {
-  message("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
   list(msg = paste0("The message is: '", msg, "'"))
 }
 
